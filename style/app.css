@@ -77,8 +77,14 @@ list-style-type: none;
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 30px;
-    line-height: 1.5;
+    font-size:25px;
+    line-height:1 ;
+    
+  }
+  
+.about-description{
+font-size:20px;
+padding:80px 20px;
   }
   .project-description {
     padding: 0;
