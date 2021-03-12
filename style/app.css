@@ -79,12 +79,11 @@ list-style-type: none;
   h1 {
     font-size:25px;
     line-height:1 ;
-    
+    padding:80px 20px;
   }
   
-.about-description{
+  .about-description{
 font-size:20px;
-padding:80px 20px;
   }
   .project-description {
     padding: 0;
