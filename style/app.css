@@ -3,10 +3,12 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Nunito", sans-serif;
   --default-font-family: "Inter", sans-serif;
+  
 }
 body {
   font-family: var(--default-font-family);
   background: whitesmoke;
+  background-image: url("/img/background.jpg");
 }
 h1,
 h2,
@@ -47,6 +49,7 @@ p {
   font-size: 24px;
   line-height: 2;
 }
+
 
 .work-description h1 {
   font-size: 64px;
