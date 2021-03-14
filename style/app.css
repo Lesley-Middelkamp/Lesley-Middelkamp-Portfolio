@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #dfdfdf;
   --heading-font-family: "Nunito", sans-serif;
   --default-font-family: "Inter", sans-serif;
 }
@@ -85,13 +85,26 @@ p {
 .icons {
   text-align: center;
   font-size: 20px;
+  margin: 20px 0;
 }
 .icons-1 {
   text-align: center;
   font-size: 50px;
   list-style-type: none;
 }
-
+footer .icons a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .icons a:hover {
+  color: white;
+  background: var(--primary-color);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 25px;
@@ -109,6 +122,9 @@ p {
   }
   .project-description h2 {
     font-size: 40px;
+  }
+  .work-description a {
+    font-size: 24px;
   }
   .hero {
     padding: 80px 20px;
